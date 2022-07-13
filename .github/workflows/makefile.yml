@@ -1,7 +1,7 @@
 name: "Build Dark Ages kernel on darky."              # Description of the workflow.
 on:
   push:
-    branches: pon                                   # Branch to build.
+    branches: main                                   # Branch to build.
   workflow_dispatch:                                  # Allow to manually trigger workflow.
 jobs:
   build:
