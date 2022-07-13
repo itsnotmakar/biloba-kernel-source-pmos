@@ -19,6 +19,6 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       with:
         arch: arm64                                   # Specify arch
-        compiler: gcc/11                              # Specify toolchain to use
+        compiler: gcc/9                              # Specify toolchain to use
         defconfig: biloba_defconfig                    # Specify defconfig to use
         image: Image.gz-dtb                           # Specify final build file
